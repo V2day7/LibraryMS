@@ -1,6 +1,5 @@
 import React from "react";
 import "./BookTemplate.css";
-import egg from "../assets/eggy.jpg";
 
 function BookTemplate(bookProp) {
   const handleCardClick = () => {

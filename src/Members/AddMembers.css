@@ -1,0 +1,29 @@
+.addMemContainer {
+  flex-direction: column;
+  background-color: hsl(0, 0%, 87%);
+  height: 56vh;
+  max-width: auto;
+  flex-shrink: 0;
+  margin-top: 80px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 10px;
+  padding: 10px;
+  overflow-y: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.addMemContainer .addMem {
+  color: black;
+  font: Arial;
+}
+
+.addMemContainer .line {
+  border: 0;
+  height: 5px;
+  background-color: black;
+  border-radius: 5px;
+  width: 75%;
+}

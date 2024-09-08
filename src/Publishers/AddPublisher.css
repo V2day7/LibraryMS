@@ -1,0 +1,29 @@
+.addPubContainer {
+  flex-direction: column;
+  background-color: hsl(0, 0%, 87%);
+  height: 50vh;
+  max-width: auto;
+  flex-shrink: 0;
+  margin-top: 80px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 10px;
+  padding: 10px;
+  overflow-y: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.addPubContainer .addPub {
+  color: black;
+  font: Arial;
+}
+
+.addPubContainer .line {
+  border: 0;
+  height: 5px;
+  background-color: black;
+  border-radius: 5px;
+  width: 75%;
+}

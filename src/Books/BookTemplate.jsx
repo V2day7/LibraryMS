@@ -10,7 +10,9 @@ function BookTemplate(bookProp) {
     <div className="card-parent" onClick={handleCardClick}>
       <img className="card-image" alt="egg" src={bookProp.img}></img>
       <h2 className="card-title">{bookProp.title}</h2>
-      <p className="card-text">{bookProp.desc}</p>
+      <p className="card-text">{bookProp.year}</p>
+      <p className="card-text">{bookProp.location}</p>
+      <p className="card-text">{bookProp.genre}</p>
     </div>
   );
 }

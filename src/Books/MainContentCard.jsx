@@ -34,7 +34,9 @@ export default function mainContentContainer() {
                 key={key}
                 img={egg}
                 title={book.title}
-                desc={book.genre}
+                year={book.publication_year}
+                location={book.shelf_location}
+                genre={book.genre}
               />
             ))}
           </div>

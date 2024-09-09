@@ -53,7 +53,10 @@ export default function AddAuthorCard() {
               onChange={handleChange}
             />
             {/* input end */}
-            <button type="submit" class="btn btn-primary fw-bold mt-4 btn-lg">
+            <button
+              type="submit"
+              className="btn btn-primary fw-bold mt-4 btn-lg"
+            >
               Submit
             </button>
           </form>

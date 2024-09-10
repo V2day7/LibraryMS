@@ -1,0 +1,10 @@
+.inputsContainer{
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+    background-color: hsl(0, 0%, 87%);
+    margin-left: 30px;
+    padding: 10px;
+    border-radius: 10px;
+
+}

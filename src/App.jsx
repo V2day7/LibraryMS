@@ -5,6 +5,7 @@ import Authors from "./Authors/Authors.jsx";
 import Members from "./Members/Members.jsx";
 import BooksBorrowed from "./Borrowed/BooksBorrowed.jsx";
 import Publishers from "./Publishers/Publisher.jsx";
+import Login from "./Login/Login.jsx";
 import "./App.css";
 
 export default function App() {
@@ -41,6 +42,11 @@ export default function App() {
                     Books Borrowed
                   </Link>
                 </li>
+                <li class="nav-item">
+                  <Link to="/Login" class="nav-link">
+                    Login
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>
@@ -51,6 +57,7 @@ export default function App() {
           <Route path="/Publishers" element={<Publishers />} />
           <Route path="/Members" element={<Members />} />
           <Route path="/BooksBorrowed" element={<BooksBorrowed />} />
+          <Route path="/Login" element={<Login />} />
         </Routes>
       </Router>
     </div>

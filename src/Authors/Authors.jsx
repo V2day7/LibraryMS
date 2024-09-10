@@ -23,7 +23,7 @@ export default function Authors() {
   };
 
   const handleWebSocketMessage = (message) => {
-    console.log("WebSocket message received:", message);
+    console.log("wsc message received in authors:", message);
     const newAuthor = JSON.parse(message); // Assuming the message is a JSON string
     console.log("Parsed new author:", newAuthor);
     setAuthors((prevAuthors) => {

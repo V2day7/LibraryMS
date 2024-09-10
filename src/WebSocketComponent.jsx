@@ -17,7 +17,7 @@ export default function WebSocketComponent({ onmessage }) {
       } else {
         message = event.data;
       }
-      console.log("Message received: " + message);
+      console.log("Message received in wsc: " + message);
       setMessages((prevMessages) => [...prevMessages, message]);
       onmessage(message); // Pass the received message to the onmessage prop
     };
